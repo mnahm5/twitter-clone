@@ -643,6 +643,7 @@ int id line1 0x7f0c0081
 int id line3 0x7f0c0085
 int id listMode 0x7f0c000b
 int id list_item 0x7f0c0041
+int id logout 0x7f0c008a
 int id lvUsers 0x7f0c0072
 int id media_actions 0x7f0c007f
 int id middle 0x7f0c0032
@@ -704,6 +705,7 @@ int id topPanel 0x7f0c0047
 int id touch_outside 0x7f0c0073
 int id tvLoginLink 0x7f0c0070
 int id tvSignUpLink 0x7f0c006c
+int id tweet 0x7f0c0089
 int id up 0x7f0c0009
 int id useLogo 0x7f0c0014
 int id view_offset_helper 0x7f0c000a
@@ -768,6 +770,7 @@ int layout select_dialog_item_material 0x7f040030
 int layout select_dialog_multichoice_material 0x7f040031
 int layout select_dialog_singlechoice_material 0x7f040032
 int layout support_simple_spinner_dropdown_item 0x7f040033
+int menu tweet_menu 0x7f0d0000
 int mipmap ic_launcher 0x7f030000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001

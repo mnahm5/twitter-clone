@@ -2342,6 +2342,7 @@ containing a value of this type.
         public static final int line3=0x7f0c0085;
         public static final int listMode=0x7f0c000b;
         public static final int list_item=0x7f0c0041;
+        public static final int logout=0x7f0c008a;
         public static final int lvUsers=0x7f0c0072;
         public static final int media_actions=0x7f0c007f;
         public static final int middle=0x7f0c0032;
@@ -2403,6 +2404,7 @@ containing a value of this type.
         public static final int touch_outside=0x7f0c0073;
         public static final int tvLoginLink=0x7f0c0070;
         public static final int tvSignUpLink=0x7f0c006c;
+        public static final int tweet=0x7f0c0089;
         public static final int up=0x7f0c0009;
         public static final int useLogo=0x7f0c0014;
         public static final int view_offset_helper=0x7f0c000a;
@@ -2471,6 +2473,9 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f040031;
         public static final int select_dialog_singlechoice_material=0x7f040032;
         public static final int support_simple_spinner_dropdown_item=0x7f040033;
+    }
+    public static final class menu {
+        public static final int tweet_menu=0x7f0d0000;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
