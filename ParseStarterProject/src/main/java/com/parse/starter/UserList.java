@@ -12,7 +12,13 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
+
 import java.util.ArrayList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class UserList extends AppCompatActivity {
@@ -26,10 +32,12 @@ public class UserList extends AppCompatActivity {
         setContentView(R.layout.activity_user_list);
         setTitle("User List");
 
-        users.add("Nadim");
-        users.add("Ahmed");
+        if (ParseUser.getCurrentUser().get("following") == null) {
+            List<String> emptyList = new ArrayList<>();
+            ParseUser.getCurrentUser().put("following", emptyList);
+        }
 
-        ListView lvUsers = (ListView) findViewById(R.id.lvUsers);
+        final ListView lvUsers = (ListView) findViewById(R.id.lvUsers);
 
         lvUsers.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 
@@ -47,9 +55,39 @@ public class UserList extends AppCompatActivity {
 
                 if (checkedTextView.isChecked()) {
                     Log.i("Info", "Row is checked");
+
+                    ParseUser.getCurrentUser().getList("following").add(users.get(position));
+                    ParseUser.getCurrentUser().saveInBackground();
                 }
                 else {
                     Log.i("Info", "Row is not checked");
+
+                    ParseUser.getCurrentUser().getList("following").remove(users.get(position));
+                    ParseUser.getCurrentUser().saveInBackground();
+                }
+            }
+        });
+
+        users.clear();
+        ParseQuery<ParseUser> query = ParseUser.getQuery();
+
+        query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.findInBackground(new FindCallback<ParseUser>() {
+            @Override
+            public void done(List<ParseUser> objects, ParseException e) {
+                if (e == null) {
+                    if (objects.size() > 0) {
+                        for (ParseUser user: objects) {
+                            users.add(user.getUsername());
+                        }
+                        arrayAdapter.notifyDataSetChanged();
+
+                        for (String username: users) {
+                            if (ParseUser.getCurrentUser().getList("following").contains(username)) {
+                                lvUsers.setItemChecked(users.indexOf(username), true);
+                            }
+                        }
+                    }
                 }
             }
         });
