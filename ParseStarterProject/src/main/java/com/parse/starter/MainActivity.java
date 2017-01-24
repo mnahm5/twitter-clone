@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         setTitle("Login");
+        redirectUser();
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void done(ParseUser user, ParseException e) {
                 if (e == null) {
                     Log.i("Info", "Logged In");
+                    redirectUser();
                 }
                 else {
                     Toast.makeText(
@@ -59,5 +61,12 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void redirectUser() {
+        if (ParseUser.getCurrentUser() != null) {
+            Intent intent = new Intent(getApplicationContext(), UserList.class);
+            startActivity(intent);
+        }
     }
 }

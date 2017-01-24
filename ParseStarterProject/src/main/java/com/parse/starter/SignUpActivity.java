@@ -27,6 +27,8 @@ public class SignUpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        redirectUser();
     }
 
     public void LoginLink(View view) {
@@ -70,6 +72,13 @@ public class SignUpActivity extends AppCompatActivity {
                     "Passwords do not match",
                     Toast.LENGTH_SHORT
             ).show();
+        }
+    }
+
+    public void redirectUser() {
+        if (ParseUser.getCurrentUser() != null) {
+            Intent intent = new Intent(getApplicationContext(), UserList.class);
+            startActivity(intent);
         }
     }
 }

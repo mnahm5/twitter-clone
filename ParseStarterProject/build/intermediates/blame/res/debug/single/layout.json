@@ -180,6 +180,10 @@
         "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_list.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\src\\main\\res\\layout\\activity_user_list.xml"
+    },
+    {
         "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_header.xml"
     },
