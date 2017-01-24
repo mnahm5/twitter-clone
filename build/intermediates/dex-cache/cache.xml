@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5d65e3b55345d88521cdb503871b55d7b0cf53ff">
+        <dex dex="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_66031dd56177abc8b96092ccc8444afb0eee0d95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_f9ea9f9b87c4158c2bcce75ed1b2018886486c75\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4309605f424c2f0b0fd0e383b9989add29374cc5">
-        <dex dex="D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_66031dd56177abc8b96092ccc8444afb0eee0d95\classes.dex" />
     </item>
     <item
         is-multidex="true"

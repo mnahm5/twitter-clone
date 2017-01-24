@@ -46,6 +46,7 @@
             android:label="@string/title_activity_sign_up"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.parse.starter.UserList" />
+        <activity android:name="com.parse.starter.Feed" />
     </application>
 
 </manifest>

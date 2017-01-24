@@ -169,6 +169,13 @@ public class UserList extends AppCompatActivity {
             );
             startActivity(intent);
         }
+        else if (item.getItemId() == R.id.feed) {
+            Intent intent = new Intent(
+                    getApplicationContext(),
+                    Feed.class
+            );
+            startActivity(intent);
+        }
 
         return super.onOptionsItemSelected(item);
     }

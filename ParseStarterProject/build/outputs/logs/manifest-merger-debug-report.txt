@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:9:1-44:12
+ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:9:1-45:12
 	package
 		ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
 		INJECTED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject
 	android:name
 		ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:15:5-42:19
+ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:15:5-43:19
 MERGED from [com.android.support:design:23.4.0] D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -75,9 +75,13 @@ ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject
 	android:name
 		ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:38:13-43
 activity#com.parse.starter.UserList
-ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:41:9-55
+ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:41:9-46
 	android:name
 		ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:41:19-43
+activity#com.parse.starter.Feed
+ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:42:9-51
+	android:name
+		ADDED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml:42:19-39
 uses-sdk
 INJECTED from D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:23.4.0] D:\Personal_Projects\Android Course\twitter-clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
