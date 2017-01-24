@@ -112,12 +112,12 @@
         "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
         "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "D:\\Personal_Projects\\Android Course\\twitter-clone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
