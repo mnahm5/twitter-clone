@@ -61,5 +61,6 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:clickable="true"
         android:gravity="center"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:onClick="SignUpLink" />
 </RelativeLayout>
