@@ -47,7 +47,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
-        android:id="@+id/btLogin" />
+        android:id="@+id/btLogin"
+        android:onClick="Login" />
 
     <TextView
         android:text="Don't have an account?\nSign Up"
